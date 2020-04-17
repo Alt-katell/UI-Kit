@@ -7,7 +7,7 @@
 .container{
   width: 400px;
   height: 600px;
-  background: #f3d1f4;
+  background: white;
   margin: 30px auto;
   display: flex;
   flex-direction: column;
@@ -53,17 +53,16 @@ label {
 }
 
 .field {
-  background: #f3d1f4;
   border-bottom: 1px solid black;
 }
 
 #sign-up-button {
   border-radius: 34px;
-  background: #f5fcc1;
+  background-image: linear-gradient(to right, #E7346C, #FE8706);
   font-size: 16px;
-  padding: 16px 20px;
-  font-weight: bold;
+  padding: 14px 2px;
   margin-top: 24px;
+  color: white;
 }
 
 
