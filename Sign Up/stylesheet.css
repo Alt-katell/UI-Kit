@@ -10,10 +10,10 @@ body{
 }
 
 .container{
-  width: 350px;
-  height: 500px;
-  background: white;
-  margin: 30px auto;
+  width: 370px;
+  height: 520px;
+  background: #F8F9FA;
+  margin: 80px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,15 +42,19 @@ body{
 .input-field label {
   float: left;
   text-align: left;
-  /*margin-right: 15px;*/
-  border-bottom: 1px solid #4C4C4C;
+  border-bottom: 1px solid #AAAAAA;
   width: 80px;
-  padding-bottom: 2px;
+  padding: 0 10px 2px 0;
+  color: #4C4C4C;
 }
 
 .field {
-  border-bottom: 1px solid #4C4C4C;
-  padding-bottom: 4px;
+  border-bottom: 1px solid #AAAAAA;
+  padding-bottom: 1px;
+  background: #F8F9FA;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 
 #sign-up-button {
@@ -63,6 +67,11 @@ body{
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
+  outline: none;
+}
+
+#sign-up-button:hover {
+  background: black;
 }
 
 .log-in-link {
@@ -70,8 +79,8 @@ body{
 }
 
 .log-in-link a {
-  text-decoration: none;
   color: black;
+  outline: none;
 }
 
 
