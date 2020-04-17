@@ -41,13 +41,16 @@ body{
 
 .input-field label {
   float: left;
-  text-align: right;
-  margin-right: 15px;
+  text-align: left;
+  /*margin-right: 15px;*/
+  border-bottom: 1px solid #4C4C4C;
   width: 80px;
+  padding-bottom: 2px;
 }
 
 .field {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #4C4C4C;
+  padding-bottom: 4px;
 }
 
 #sign-up-button {
@@ -58,6 +61,8 @@ body{
   padding: 10px 0;
   margin: 50px 0 16px 0;
   color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
 }
 
 .log-in-link {
