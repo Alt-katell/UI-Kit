@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
 
 * {
   border: none;
 }
 
+body{
+  font-family: 'Raleway', sans-serif;
+
+}
+
 .container{
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 500px;
   background: white;
   margin: 30px auto;
   display: flex;
@@ -17,35 +22,24 @@
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-body{
+.welcome {
   font-family: 'Open Sans', sans-serif;
-
-}
-
-h1 {
-  font-family: 'Nothing You Could Do', cursive;
   font-size: 36px;
   text-transform: uppercase;
-  margin: 50px 0;
-}
-
-h2 {
-  font-weight: normal;
-  margin-bottom: 50px;
-  margin-top: 0;
-  text-align: center;
+  margin: 0 0 50px 0;
 }
 
 #sign-up-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .input-field {
   margin-bottom: 16px;
 }
 
-label {
+.input-field label {
   float: left;
   text-align: right;
   margin-right: 15px;
@@ -60,8 +54,9 @@ label {
   border-radius: 34px;
   background-image: linear-gradient(to right, #E7346C, #FE8706);
   font-size: 16px;
-  padding: 14px 2px;
-  margin-top: 24px;
+  width: 100px;
+  padding: 10px 0;
+  margin-top: 50px;
   color: white;
 }
 
