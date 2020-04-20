@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+h1, h2 {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #FB161B;
+}
+
+.grey-square {
+  background: #222F3E;
+  width: 700px;
+  position: relative;
+}
+
+.cart {
+  width: 300px;
+  padding: 30px 25px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-name, .price-sum {
+  color: white;
+}
+
+.item-price {
+  color: #AAAAAA;
+}
+
+.total {
+  margin-top: 150px;
+}
+
+.order-total {
+  text-transform: uppercase;
+  color: #AAAAAA;
+}
+
+
