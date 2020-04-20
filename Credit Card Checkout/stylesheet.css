@@ -6,8 +6,9 @@ body{
 }
 
 .container {
-  width: 900px;
+  width: 800px;
   margin: 40px auto;
+  position: relative;
 }
 
 h1, h2 {
@@ -19,12 +20,12 @@ h1, h2 {
 
 .grey-square {
   background: #222F3E;
-  width: 700px;
-  position: relative;
+  width: 800px;
+  border-radius: 2px;
 }
 
 .cart {
-  width: 300px;
+  width: 270px;
   padding: 30px 25px;
 }
 
@@ -48,6 +49,17 @@ h1, h2 {
 .order-total {
   text-transform: uppercase;
   color: #AAAAAA;
+}
+
+.checkout {
+  background: #EBEBEB;
+  width: 380px;
+  padding: 30px 25px;
+  border-radius: 2px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 230px;
+  right: 30px;
 }
 
 
