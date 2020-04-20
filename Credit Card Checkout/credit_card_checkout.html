@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="grey-square">
+    <div class="dark-grey-square">
       <div class="cart">
         <h2>Cart</h2>
 
@@ -29,50 +29,58 @@
     </div>
 
 
-    <div class="checkout">
-      <h1>Payment Details</h1>
+    <div class="light-grey-square">
+      <div class="checkout">
+        <h1>Payment Details</h1>
 
-      <form id="checkout-form" action="" autocomplete="off">
-        <div class="input-field">
-          <label for="name_on_card">Name on the card</label>
-          <input class="field" type="text" name="name_on_card" required>
-        </div>
+        <form id="checkout-form" action="" autocomplete="off">
+          <div class="input-field">
+            <label for="name_on_card">Name on the card</label>
+            <input id="name" class="field" type="text" name="name_on_card" required>
+          </div>
 
-        <div class="input-field">
-          <label for="card_number">Card number</label>
-          <input class="field" type="text" name="card_number" required>
-        </div>
+          <div class="input-field">
+            <label for="card_number">Card number</label>
+            <input id="number" class="field" type="text" name="card_number" required>
+          </div>
 
-        <div class="input-field">
-          <label for="expiration_date">Expiration date</label>
-          <select name="expiration_date" id="month-select" required>
-              <option value="01">January</option>
-              <option value="02">February</option>
-              <option value="03">March</option>
-              <option value="04">April</option>
-              <option value="05">May</option>
-              <option value="06">June</option>
-              <option value="07">July</option>
-              <option value="08">August</option>
-              <option value="09">September</option>
-              <option value="10">October</option>
-              <option value="11">November</option>
-              <option value="12">December</option>
-          </select>
-          <input class="field" type="text" name="card_number" id="year" required>
-        </div>
+          <div class="date-cvc">
+            <div class="input-field">
+              <label for="expiration_date">Expiration date</label>
+              <div class="expiry">
+                <select name="expiration_date" id="month-select" required>
+                    <option value="01">January</option>
+                    <option value="02">February</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <input id="year" class="field" type="text" name="card_number" id="year" required>
+              </div>
+            </div>
 
-        <div class="input-field">
-          <label for="cvv">cvv</label>
-          <input class="field" type="number" name="cvv" required>
-        </div>
+            <div class="input-field">
+              <label for="cvc">CVC</label>
+              <input id="cvc" class="field" type="number" name="cvc" required>
+            </div>
+          </div>
 
-        <input type="checkbox" id="remember-card" name="remember-card"
-               checked>
-        <label for="remember-card">Save this card for futur purchase</label>
+          <div class="input-field check">
+            <input type="checkbox" id="remember-card" name="remember-card"
+                   checked>
+            <label for="remember-card">Save this card for futur purchase</label>
+          </div>
 
-        <input id="sign-up-button" type="submit" value="Pay Now">
-      </form>
+          <input id="pay-now-button" type="submit" value="Pay Now">
+        </form>
+      </div>
     </div>
   </div>
 </body>

@@ -18,7 +18,7 @@ h1, h2 {
   color: #FB161B;
 }
 
-.grey-square {
+.dark-grey-square {
   background: #222F3E;
   width: 800px;
   border-radius: 2px;
@@ -51,15 +51,83 @@ h1, h2 {
   color: #AAAAAA;
 }
 
-.checkout {
+.light-grey-square {
+  z-index: 10000;
   background: #EBEBEB;
   width: 380px;
-  padding: 30px 25px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   border-radius: 2px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   position: absolute;
-  top: 230px;
+  top: 120px;
   right: 30px;
+}
+
+.checkout {
+  width: 300px;
+  padding: 30px 40px;
+}
+
+h1 {
+  margin-bottom: 32px
+}
+
+.input-field {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.date-cvc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.check {
+  flex-direction: row;
+}
+
+.input-field label {
+  margin-bottom: 8px;
+}
+
+.field, #month-select {
+  border: 1px solid #D8D8D8;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#month-select {
+  height: 31px;
+}
+
+#year {
+  width: 45px;
+}
+
+#cvc {
+  width: 35px;
+}
+
+#pay-now-button {
+  border-radius: 2px;
+  background: #FB161B;
+  font-size: 16px;
+  width: 100px;
+  padding: 10px 0;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  outline: none;
+  border: none;
+}
+
+#pay-now-button:hover {
+  background: #222F3E;
 }
 
 
