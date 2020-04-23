@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
 /*BANNER*/
 
 .banner {
@@ -62,7 +67,7 @@ a {
 }
 
 .intro-text {
-  margin: 50px auto;
+  margin-top: 50px;
   color: white;
   text-align: center;
 }
@@ -89,5 +94,19 @@ a {
 .booking-button:hover {
   background: #C7DAA3;
   color: black;
+}
+
+
+/*OUR STORY*/
+
+.story {
+  margin-top: 100px;
+  width: 700px;
+}
+
+.story h2 {
+  font-family: 'Kameron', serif;
+  letter-spacing: 2px;
+  font-size: 26px;
 }
 
