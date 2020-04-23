@@ -107,6 +107,10 @@ a {
 .story h2 {
   font-family: 'Kameron', serif;
   letter-spacing: 2px;
-  font-size: 26px;
+  font-size: 28px;
+}
+
+.story p {
+  font-size: 18px;
 }
 
