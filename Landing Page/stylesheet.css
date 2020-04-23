@@ -46,7 +46,7 @@ a {
 }
 
 .nav-element a:hover {
-  border-bottom: 5px dotted #C7DAA3;
+  border-bottom: 5px dotted #8CAF4C;
 }
 
 #logo {
@@ -85,15 +85,14 @@ a {
 }
 
 .booking-button {
-  background: #5B7245;
+  background: #8CAF4C;
   padding: 16px 32px;
   color: white;
   border-radius: 2px;
 }
 
 .booking-button:hover {
-  background: #C7DAA3;
-  color: black;
+  background: #5B7245;
 }
 
 
