@@ -63,22 +63,18 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
-}
-
-.intro-text {
-  margin-top: 50px;
+  margin-top: 150px;
   color: white;
-  text-align: center;
+  flex-direction: column;
 }
 
-.intro-text h1 {
+.intro h1 {
   font-family: 'Kameron', serif;
   letter-spacing: 2px;
   font-size: 48px;
 }
 
-.intro-text p {
+.intro p {
   font-size: 26px;
   font-weight: lighter;
 }
