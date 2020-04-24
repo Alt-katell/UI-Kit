@@ -131,9 +131,8 @@ a {
 /*BREAKFAST PHOTOS*/
 
 footer {
-  background: #020421;
-  color: white;
-  padding: 25px 0;
+  color: #020421;
+  padding: 100px 0 0 0;
 }
 
 .info {
@@ -148,10 +147,13 @@ justify-content: space-around;
 }
 
 .social-list {
+  background: #020421;
   list-style: none;
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  margin-bottom: 0;
+  padding: 32px 0;
 }
 
 .social-element a {
