@@ -113,3 +113,17 @@ a {
   font-size: 18px;
 }
 
+
+/*BREAKFAST PHOTOS*/
+
+
+.breakfast-photos {
+  display: flex;
+  margin-top: 100px;
+}
+
+.breakfast-photos img {
+  width: 50%;
+  height: auto;
+}
+
