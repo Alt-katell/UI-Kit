@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kameron|Raleway:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kameron|Raleway:300,400,600&display=swap');
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -125,5 +125,42 @@ a {
 .breakfast-photos img {
   width: 50%;
   height: auto;
+}
+
+
+/*BREAKFAST PHOTOS*/
+
+footer {
+  background: #020421;
+  color: white;
+  padding: 25px 0;
+}
+
+.info {
+display: flex;
+justify-content: space-around;
+}
+
+.info h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8CAF4C;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.social-element a {
+  color: white;
+  font-size: 32px;
+  margin: 0 24px;
+}
+
+.social-element a:hover {
+  color: #8CAF4C;
 }
 
