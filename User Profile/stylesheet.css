@@ -1,3 +1,5 @@
+/*ALL, DEFAULT*/
+
 body {
   margin: 0;
 }
@@ -5,6 +7,23 @@ body {
 a {
   text-decoration: none;
 }
+
+
+/*TOPBAR*/
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+
+.topbar a {
+  font-size: 28px;
+  color: #DA3808;
+}
+
+
+/*NAV FOOTER*/
 
 .footer-nav {
   display: flex;
