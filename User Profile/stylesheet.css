@@ -40,10 +40,19 @@ a {
   width: auto;
   border-radius: 50%;
   display: block;
-  margin: 20px auto 0 auto;
-  position: absolute;
-  top: 14%;
-  left: 38%;
+  margin: 20px auto 20px auto;
+}
+
+/*TEXT INTRO*/
+
+.text-intro p{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.name {
+
 }
 
 
