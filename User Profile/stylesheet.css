@@ -24,12 +24,12 @@ a {
   padding: 16px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: bold;
-  color: #DA3808;
+  color: #D3512D;
 }
 
 .topbar a {
   font-size: 28px;
-  color: #DA3808;
+  color: #D3512D;
 }
 
 
@@ -96,14 +96,14 @@ a {
 
 .nav-element a {
   font-size: 28px;
-  color: #DA3808;
+  color: #D3512D;
   position: absolute;
   top: 14%;
   left: 25%;
 }
 
 .active {
-  background: #DA3808;
+  background: #D3512D;
 }
 
 .active a {
