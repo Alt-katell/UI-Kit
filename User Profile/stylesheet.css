@@ -40,19 +40,33 @@ a {
   width: auto;
   border-radius: 50%;
   display: block;
-  margin: 20px auto 20px auto;
+  margin: 20px auto 0 auto;
 }
 
 /*TEXT INTRO*/
 
-.text-intro p{
+.text-intro {
   width: 70%;
-  text-align: center;
   margin: 0 auto;
 }
 
 .name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
+.location {
+  color: #333333;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  color: #8B92A3;
+  margin: 0;
 }
 
 
