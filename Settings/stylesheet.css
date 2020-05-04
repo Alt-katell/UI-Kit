@@ -1,0 +1,92 @@
+/*BUILT FOR MOBILE*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Raleway:300,400,700&display=swap');
+
+
+/*ALL, DEFAULT*/
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 48px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/*TOPBAR*/
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: bold;
+  color: #D3512D;
+}
+
+.topbar a {
+  font-size: 28px;
+  color: #D3512D;
+}
+
+
+/*AVATAR*/
+
+.avatar {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+
+
+/*NAV FOOTER*/
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 8px 0;
+  background: white;
+  box-shadow: 0px 4px 40px rgba(204, 204, 204, 0.9);
+  border-radius: 25px 25px 0px 0px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.nav-element {
+  text-align: center;
+  background: white;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.nav-element a {
+  font-size: 28px;
+  color: #D3512D;
+  position: absolute;
+  top: 14%;
+  left: 25%;
+}
+
+.active {
+  background: #D3512D;
+}
+
+.active a {
+  color: white;
+}
