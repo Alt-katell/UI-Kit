@@ -60,6 +60,34 @@ main {
 }
 
 
+/*DATA UPDATE*/
+
+.user-info-form {
+
+}
+
+.input-field {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+#update-button {
+  border-radius: 2px;
+  background: #D3512D;
+  font-size: 16px;
+  width: 100px;
+  padding: 10px 0;
+  margin: 25px 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  outline: none;
+  border: none;
+  align-self: center;
+}
+
+
 /*NAV FOOTER*/
 
 .footer-nav {

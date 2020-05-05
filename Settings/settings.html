@@ -24,6 +24,24 @@
 
   <main>
     <div class="container">
+      <form  id="user-info-form" action="#" autocomplete="off">
+        <div class="input-field">
+          <label for="name">Name</label>
+          <input id="name" class="field" type="text" name="name" placeholder="John Smith" required>
+        </div>
+
+        <div class="input-field">
+          <label for="city">City and Country</label>
+          <input id="city" class="field" type="text" name="city" placeholder="Vancouver, Canada" required>
+        </div>
+
+        <div class="input-field">
+          <label for="bio">Bio</label>
+          <input id="bio" class="field" type="text" name="bio" placeholder="I am a sport photographer..." required>
+        </div>
+
+        <input id="update-button" type="submit" value="Update">
+      </form>
 
     </div>
   </main>
