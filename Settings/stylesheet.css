@@ -62,8 +62,16 @@ main {
 
 /*DATA UPDATE*/
 
-.user-info-form {
+.edit-info-title {
+  font-weight: normal;
+  text-align: center;
+  color: #D3512D;
+  font-size: 18px;
+}
 
+#user-info-form {
+  text-align: center;
+  margin-top: 25px;
 }
 
 .input-field {
@@ -72,13 +80,20 @@ main {
   flex-direction: column;
 }
 
+.input-field input {
+  text-align: center;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+}
+
 #update-button {
   border-radius: 2px;
   background: #D3512D;
   font-size: 16px;
   width: 100px;
   padding: 10px 0;
-  margin: 25px 0;
+  margin: 15px 0;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
