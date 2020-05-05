@@ -43,11 +43,20 @@ main {
 
 
 /*AVATAR*/
+.edit-img {
+  position: relative;
+}
 
 .avatar {
   height: 50px;
   width: auto;
   border-radius: 50%;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 26px;
+  right: -5px;
 }
 
 
