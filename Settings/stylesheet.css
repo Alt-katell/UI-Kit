@@ -85,6 +85,7 @@ main {
   outline: none;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
+  border: none;
 }
 
 #update-button {
@@ -93,13 +94,31 @@ main {
   font-size: 16px;
   width: 100px;
   padding: 10px 0;
-  margin: 15px 0;
+  margin: 15px 0 40px 0;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   outline: none;
   border: none;
   align-self: center;
+}
+
+
+/*ITEMS GRID*/
+
+.gallery {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 25vw 25vw;
+  grid-gap: 15px;
+  padding: 20px 10px 30px 10px;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
