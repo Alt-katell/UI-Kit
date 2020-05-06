@@ -139,6 +139,13 @@ main {
 }
 
 
+/*ACCOUNT SETTINGS*/
+
+.account-settings {
+  display: flex;
+  flex-direction: column;
+}
+
 /*NAV FOOTER*/
 
 .footer-nav {

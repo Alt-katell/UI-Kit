@@ -24,25 +24,27 @@
 
   <main>
     <div class="container">
-      <h2 class="edit-info-title">Edit your info</h2>
-      <form  id="user-info-form" action="#" autocomplete="off">
-        <div class="input-field">
-          <label for="name">Name</label>
-          <input id="name" class="field" type="text" name="name" placeholder="John Smith" required>
-        </div>
+      <div class="info">
+        <h2 class="edit-info-title">Edit your info</h2>
+        <form  id="user-info-form" action="#" autocomplete="off">
+          <div class="input-field">
+            <label for="name">Name</label>
+            <input id="name" class="field" type="text" name="name" placeholder="John Smith" required>
+          </div>
 
-        <div class="input-field">
-          <label for="city">City and Country</label>
-          <input id="city" class="field" type="text" name="city" placeholder="Vancouver, Canada" required>
-        </div>
+          <div class="input-field">
+            <label for="city">City and Country</label>
+            <input id="city" class="field" type="text" name="city" placeholder="Vancouver, Canada" required>
+          </div>
 
-        <div class="input-field">
-          <label for="bio">Bio</label>
-          <input id="bio" class="field" type="text" name="bio" placeholder="I am a sport photographer..." required>
-        </div>
+          <div class="input-field">
+            <label for="bio">Bio</label>
+            <input id="bio" class="field" type="text" name="bio" placeholder="I am a sport photographer..." required>
+          </div>
 
-        <input id="update-button" type="submit" value="Update">
-      </form>
+          <input id="update-button" type="submit" value="Update">
+        </form>
+      </div>
 
       <div class="item-gallery">
         <h2 class="edit-info-title">Add or remove items to rent</h2>
@@ -68,6 +70,11 @@
           </div>
         </div>
         <button id="update-button"><a href="#">Add new item</a></button>
+      </div>
+
+      <div class="account-settings">
+        <h2 class="edit-info-title">Account settings</h2>
+        <button id="update-button"><a href="#">Delete my account</a></button>
       </div>
     </div>
   </main>
