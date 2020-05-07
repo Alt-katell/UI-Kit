@@ -5,10 +5,36 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+html, body {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: #E5E5E5;
 }
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.right {
+  width: 50%;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  overflow-y: hidden;
+}
+
 
 /*#update-button {
   border-radius: 2px;
