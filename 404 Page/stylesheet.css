@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Raleway:300,400,700&display=swap');
 
+
+/*GENERL, DEFAULT*/
+
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -19,11 +22,48 @@ main {
   justify-content: space-between;
 }
 
+
+/*LEFT SIDE, TEXT*/
+
 .left {
+  width: 50%;
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  justify-content: space-between;
 }
+
+#home-button, #back-button {
+  display: inline-block;
+  border-radius: 2px;
+  background: #D3512D;
+  font-size: 16px;
+  width: 100px;
+  padding: 10px 0;
+  color: white;
+  border: 1px solid #D3512D;
+  text-align: center;
+  margin-bottom: 500px;
+}
+
+#home-button:hover {
+  background: white;
+  color: #D3512D;
+}
+
+#back-button {
+  background: white;
+  margin-left: 32px;
+  color: #D3512D;
+}
+
+#back-button:hover {
+  background: #D3512D;
+  color: white;
+}
+
+
+/*RIGHT SIDE, PICTURE*/
 
 .right {
   width: 50%;
@@ -35,25 +75,3 @@ main {
   overflow-y: hidden;
 }
 
-
-.buttons button {
-  border-radius: 2px;
-  background: #D3512D;
-  font-size: 16px;
-  width: 100px;
-  padding: 10px 0;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
-  outline: none;
-  border: 1px solid #D3512D;
-}
-
-#back-button {
-  background: white;
-  border: 1px solid #D3512D;
-}
-
-#back-button a {
-  color: #D3512D;
-}
