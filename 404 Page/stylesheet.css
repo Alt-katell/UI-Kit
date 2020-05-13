@@ -45,22 +45,26 @@ main {
 
 #first-four {
   position: relative;
-  top: 50px;
+  top: 30px;
   left: -160px;
 }
 
 #zero {
   position: relative;
-  top: -58px;
+  top: -78px;
   left: -96px;
 }
 
 #second-four {
   position: relative;
-  top: -231px;
+  top: -250px;
   left: -41px;
 }
 
+.oops {
+  margin-top: 450px;
+
+}
 
 #home-button, #back-button {
   display: inline-block;
@@ -72,7 +76,7 @@ main {
   color: white;
   border: 1px solid #D3512D;
   text-align: center;
-  margin-bottom: 500px;
+  margin-bottom: 450px;
 }
 
 #home-button:hover {
