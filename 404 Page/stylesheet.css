@@ -108,3 +108,25 @@ main {
   overflow-y: hidden;
 }
 
+
+/*RESPONSIVE, MOBILE AND TABLETS*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+
+  .left {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .left {
+    margin: 20px 20px;
+  }
+}
+
