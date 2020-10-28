@@ -32,18 +32,16 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .input-field {
   margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .input-field label {
-  float: left;
-  text-align: left;
-  border-bottom: 1px solid #AAAAAA;
-  width: 80px;
-  padding: 0 10px 2px 0;
   color: #4C4C4C;
 }
 
