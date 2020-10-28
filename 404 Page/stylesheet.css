@@ -26,11 +26,16 @@ main {
 /*LEFT SIDE, TEXT*/
 
 .left {
-  width: 50%;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.letters {
+  display: flex;
+  flex-direction: column;
 }
 
 .letter {
@@ -39,31 +44,16 @@ main {
   margin: 0;
 }
 
-.four-zero-four {
-  position: absolute;
-}
-
 #first-four {
-  position: relative;
-  top: 30px;
-  left: -160px;
+  margin: 50px 0 0 -80px;
 }
 
 #zero {
-  position: relative;
-  top: -78px;
-  left: -96px;
+  margin: -110px 0 0 -14px;
 }
 
 #second-four {
-  position: relative;
-  top: -250px;
-  left: -41px;
-}
-
-.oops {
-  margin-top: 450px;
-
+  margin: -164px 0 0 35px;
 }
 
 #home-button, #back-button {
@@ -99,7 +89,7 @@ main {
 /*RIGHT SIDE, PICTURE*/
 
 .right {
-  width: 50%;
+  width: 50vw;
 }
 
 .right img {
