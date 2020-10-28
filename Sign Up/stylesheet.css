@@ -10,9 +10,9 @@ body{
 
 .container{
   width: 370px;
-  height: 520px;
+  height: 580px;
   background: #F8F9FA;
-  margin: 80px auto;
+  margin: 60px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,13 +36,15 @@ body{
 }
 
 .input-field {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
+  width: 60%;
 }
 
 .input-field label {
   color: #4C4C4C;
+  margin-bottom: 6px;
 }
 
 .field {
@@ -58,9 +60,9 @@ body{
   border-radius: 34px;
   background-image: linear-gradient(to right, #E7346C, #FE8706);
   font-size: 16px;
-  width: 100px;
+  width: 60%;
   padding: 10px 0;
-  margin: 50px 0 16px 0;
+  margin: 35px 0 16px 0;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
@@ -69,6 +71,7 @@ body{
 
 #sign-up-button:hover {
   background: black;
+  cursor: pointer;
 }
 
 .log-in-link {
